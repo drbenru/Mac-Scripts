@@ -40,7 +40,7 @@ then
                 	exit
 		else
 		echo "OS X 10.10 NOT DETECTED, NO CHANGES HAVE BEEN MADE YET"
-		echo "CHECKING FOR OS X 10.11 to 10.12.2
+		echo "CHECKING FOR OS X 10.11 to 10.12.2"
 			if [[  $(sw_vers -productVersion | grep '10.1[1-2]') ]]
 			then
 				# CHECKS FOR FLAG IN CURRENT PLIST FILE
