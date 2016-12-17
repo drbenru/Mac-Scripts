@@ -53,6 +53,7 @@ then
 				fi
 				exit
 			fi
+			exit
 		fi
 	fi
 
