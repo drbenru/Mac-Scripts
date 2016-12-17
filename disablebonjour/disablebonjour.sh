@@ -51,8 +51,8 @@ then
 					sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool YES
                     		    	echo "MULTICAST DISABLED (OSX 10.11 or 10.12), PLEASE REBOOT"
 				fi
-			exit
-		else
+				exit
+			fi
 		fi
 	fi
 
